@@ -738,7 +738,9 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+  width: 270px;
+  height: 270px;
+  margin-bottom: 24px;
 }
 
 .portfolio-row {
@@ -820,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.png");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
