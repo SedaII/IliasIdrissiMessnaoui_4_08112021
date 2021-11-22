@@ -2,29 +2,23 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="site web, site internet, agence design lyon, agence design, web designer, création de site web, agence ux, conception de site web">
     <meta name="description" content="Contactez notre agence web La Chouette Agence afin de discuter et d'échanger autour de vos projets.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
     
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
     <title>Contacter La Chouette Agence</title>
-
-    
-<!-- Analytics -->
- 
-<!-- Analytics END -->
-    
 </head>
 <body>
 <!-- Principal conteneur -->
@@ -44,8 +38,6 @@
 				<ul class="site-navigation nav navbar-nav">
 					<li>
 						<a href="index.html">Accueil</a>
-					</li>
-					<li>
 					</li>
 					<li>
 						<a href="contact.html">Contact &gt;</a>
@@ -84,25 +76,26 @@
 					<div class="form-group">
 						<label>
 							Nom
+              <input class="form-control" required />
 						</label>
-						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Adresse email
+              <input class="form-control" type="email" required />
 						</label>
-						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
+              <input class="form-control" type="email" required id="input_504" />
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+              Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+              <textarea class="form-control" rows="4" cols="50" required></textarea>
+						</label>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -135,22 +128,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://twitter.com/"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="https://twitter.com/"><i class="fa fa-twitter icon-md"></i><span class="sr-only">Twitter link</span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://www.facebook.com/"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="https://www.facebook.com/"><span class="fa fa-facebook icon-md"><span class="sr-only">Facebook link</span></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://dribbble.com/"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="https://dribbble.com/"><span class="fa fa-dribbble icon-md"><span class="sr-only">Dribble link</span></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="https://www.instagram.com/"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="https://www.instagram.com/"><span class="fa fa-instagram icon-md"><span class="sr-only">Instagram link</span></span></a>
 						</div>
 					</div>
 				</div>
